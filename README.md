@@ -1,1 +1,1 @@
-# lab-04-refactor
+# lab-03-rock-paper-scissors
