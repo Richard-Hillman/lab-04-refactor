@@ -30,10 +30,12 @@ export function randomThrow() {
 
 export function doesUserWin(userPick, computerPick) {
 
-
     if (userPick === computerPick) {
-        result.textContent = "TIED";
+        return 'Tie';
+
+        // result.textContent = "TIED";
     }
+
     
 
 // user picks rock-------------------------------------
@@ -41,9 +43,9 @@ export function doesUserWin(userPick, computerPick) {
     
     if (userPick === 'rock') {
         if (computerPick === 'scissors') {
-            result.textContent = 'you win';
+            return 'You Win';
         } else {
-            result.textContent = 'you lose';
+            return 'You Lose';
         }
     }
 
@@ -52,10 +54,10 @@ export function doesUserWin(userPick, computerPick) {
 
     if (userPick === 'scissors') {
         if (computerPick === 'paper') {
-            result.textContent = 'you win';
+            return 'You Win';
         }
         else {
-            result.textContent = 'you lose';
+            return 'You Lose';
         }
     }
 
@@ -64,10 +66,10 @@ export function doesUserWin(userPick, computerPick) {
 
     if (userPick === 'paper') {
         if (computerPick === 'rock') {
-            result.textContent = 'you win';
+            return 'You Win';
         }
         else {
-            result.textContent = 'you lose'
+            return 'You Lose';
         }
     }
 

@@ -37,21 +37,21 @@
 
             <!-- rock -------------------------------------------------------------->
                 <label>
-                    <input type='radio' name='rps-family' value='select-rock' checked />            
+                    <input type='radio' name='rps-family' value='rock' checked />            
                     <img src=''>
                     Rock
                 </label>
 
             <!-- paper ------------------------------------------------------------->
                 <label>
-                    <input type='radio' name='rps-family' value='select-paper'/>   
+                    <input type='radio' name='rps-family' value='paper'/>   
                     <img src=''>
                     Paper
                 </label>
 
             <!-- scissor ----------------------------------------------------------->
                 <label>
-                    <input type='radio' name='rps-family' value='select-scissors'/>   
+                    <input type='radio' name='rps-family' value='scissors'/>   
                     <img src=''>
                     scissor
                 </label>
@@ -67,22 +67,23 @@
             <!-- wins -------------------------------------------------------------->
 
                 <p>
-                    Wins:<span id='win-tracker'></span>
+                    Wins:<span id='win-tracker'>0</span>
 
                 </p>    
 
             <!-- losses ------------------------------------------------------------>
                 
                 <p>
-                    Losses:<span id='loss-tracker'></span>
+                    Losses:<span id='loss-tracker'>0</span>
 
                 </p>
             <!-- draws ------------------------------------------------------------->
                 
                 <p>
-                    Draws:<span id='draw-tracker'></span>
+                    Draws:<span id='draw-tracker'>0</span>
 
                 </p>
+                <button id='reset'>RESET</button>
 
 
         </section>
